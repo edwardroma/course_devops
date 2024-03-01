@@ -7,3 +7,7 @@ from my_functions.turn_string_to_list import turn_string_to_list
 
 # constants and pre-defined lists
 from my_functions import constants
+
+f = 14
+c = int(input("hello"))
+c = c + f
