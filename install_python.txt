@@ -1,0 +1,23 @@
+install python
+
+	install pip
+should be pre-installed along with Python; 
+https://www.dataquest.io/blog/install-pip-windows/
+
+	install packages
+https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-and-using-virtual-environments
+
+	install IDE
+	install pipenv - to cover pip, virtualenv, and requirements.txt
+https://www.jetbrains.com/help/pycharm/pipenv.html#pipenv-requirements
+
+PATHES!!!
+
+install iPython
+
+
+D:\Training\DevOps
+C:\Program Files\Python\PyCharm Community Edition 2023.3.3
+C:\Program Files\Python\Python312
+C:\Users\freel\.virtualenvs\DevOps-ZZkxWl4R
+C:\Users\freel\AppData\Roaming\JetBrains\PyCharmCE2023.3
