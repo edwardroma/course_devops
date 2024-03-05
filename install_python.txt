@@ -21,3 +21,7 @@ C:\Program Files\Python\PyCharm Community Edition 2023.3.3
 C:\Program Files\Python\Python312
 C:\Users\freel\.virtualenvs\DevOps-ZZkxWl4R
 C:\Users\freel\AppData\Roaming\JetBrains\PyCharmCE2023.3
+
+Selemium API docs
+https://selenium-python.readthedocs.io/api.html
+https://selenium-python.readthedocs.io/locating-elements.html
