@@ -51,9 +51,9 @@ First, here is how you do it:
     user_num = input("Give me a number: ")
     print(square(num))
 
-Note that in both __name__ and __main__, there are TWO underscore (_) characters.
-
-If you run this program, it behaves as expected: asking the use for a number and printing out the square in return. However, you might be wondering - how is this different from the way we’ve been writing programs until this point?
+asking the use for a number and printing out the square in return.
+However, you might be wondering - how is this different from the way we’ve been writing programs
+until this point?
 
   def square(num):
     return num * num
@@ -62,15 +62,6 @@ If you run this program, it behaves as expected: asking the use for a number and
   print(square(num))
 
 You are correct if you think the second example will have THE SAME BEHAVIOR as in the first case. At least the way we’ve been running Python files until this point. I will attempt to explain.
-
-Python does not have a specified entry point like many other languages (for example, C++ always looks for a void main() method to run). Python files and programs are executed line by line by the Python interpreter, from however the Python file or program is run. When the definition of a function is reached by the interpreter, the function is not run, but rather loaded to be run later. (We discussed this when we talked about functions in a previous post.) Whatever is written outside of a function will get executed immediately - this includes creating variables and calling the functions that were previously loaded.
-
-There are (most commonly) two ways to run a Python file:
-
-    “Just running it” (which you can do from the terminal, through the “Run” button in IDLE, etc.)
-    Importing the file as a module
-
-The first way is the way that you most likely have been using if you have been doing the exercises in this blog. If you have many files in a large project, this is how you run the “entry point” file in the project.
 
 The second way is more subtle: it is what happens when you write an import statement at the top of your file. In this exercise for example, you need to import random into your program to use the random module. Somewhere on your computer there is a file (or a group of Python files) that make up the random module, and in the process of importing them, what you are actually doing is running the file(s) from that module.
 
