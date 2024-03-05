@@ -20,6 +20,6 @@
 #     print("file to stay is: ", file_to_keep)
 #     return file_to_keep
 #
-# file_compare("file1.py", "file2.py")
+# file_compare(x, y)
 #
 #

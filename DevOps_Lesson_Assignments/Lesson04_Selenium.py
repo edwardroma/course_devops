@@ -1,11 +1,11 @@
-import time
-from my_functions import checkpoint, highlight
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.firefox.options import Options
-import selenium
+# import time
+# from my_functions import checkpoint, highlight
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.keys import Keys
+# from selenium.common.exceptions import StaleElementReferenceException
+# from selenium.webdriver.firefox.options import Options
+# import selenium
 
 # print("Task 1. Write a script which will open the t2 .il sites in GC and in FF:")  # TESTED OK
 # checkpoint("to open a link in Edge")
@@ -83,7 +83,8 @@ import selenium
 # highlight(element6,3)
 # time.sleep(2)
 # print("selecting by the 'XPATH'")
-# element66 = driver6.find_element(By.XPATH, "/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/span/span/div/textarea")
+# element66 = driver6.find_element(By.XPATH,
+# "/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/span/span/div/textarea")
 # highlight(element66,3)
 # time.sleep(2)
 # print("selecting by the 'Class'")
