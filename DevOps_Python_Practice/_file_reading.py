@@ -76,8 +76,8 @@ else:
 # Reading and Writing Binary Files - in binary mode (useful for images, videos, etc.):
 # Reading a binary file
 with open('image.jpg', 'rb') as file:
-    content = file.read()
+    content1: bytes = file.read()
 # Writing to a binary file
 with open('copy.jpg', 'wb') as file:
-    file.write(content)
+    file.write(content1)
     
